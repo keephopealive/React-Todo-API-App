@@ -123,6 +123,7 @@ class TodoList extends Component {
                   item={item} 
                   updateTodo={this.props.updateTodo} 
                   toggleCompleted={this.props.toggleCompleted} 
+                  removeTodo={this.props.removeTodo}
                 />
         })}
       </ul>
